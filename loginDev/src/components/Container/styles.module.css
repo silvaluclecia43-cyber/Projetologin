@@ -1,0 +1,17 @@
+.container {
+  background: rgb(247, 249, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  background: rgb(232, 152, 152);
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.696);
+
+}
