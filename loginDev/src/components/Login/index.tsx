@@ -19,10 +19,10 @@ export function PageLogin() {
         return <CreateUserForm irParaLogin={() => setUsuario("login")} />;
 
       case "esqueceu":
-        return <ForgetForm />;
+        return <ForgetForm goToLogin={() => setUsuario("login")} />;
 
       default:
-        return <LoginForm />;
+        return <LoginForm  goToForget={() => setUsuario("esqueceu")} goToRegister={() => setUsuario("cadasdro")}/>;
     }
   }
 
